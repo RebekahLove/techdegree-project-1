@@ -101,7 +101,9 @@ header .profile-image:hover {
 .card:hover {
   border-color: #ff9b17;
 }
-
+.jobs li{
+  padding-bottom:30px
+}
 ul.skills {
   padding: 0;
   text-align: center;
