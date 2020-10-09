@@ -104,6 +104,15 @@ header .profile-image:hover {
 .jobs li{
   padding-bottom:30px
 }
+ .card-image-1 {
+  margin-top: 20px;
+  width: 420px;
+  height: 300px;
+  border-radius: 0;
+  border: 0px solid rgba(55, 0, 255, 0.404);
+  transition: all .8s;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -122,6 +131,22 @@ ul.skills {
   background: #470170;
 }
 
+.card-image-1 {
+  margin-top: 20px;
+  width: 420px;
+  height: 250px;
+  border-radius: 0;
+  border: 0px solid rgba(55, 0, 255, 0.404);
+  transition: all .8s;
+}
+.card-image-2 {
+  margin-top: 20px;
+  width: 420px;
+  height: 350px;
+  border-radius: 0;
+  border: 0px solid rgba(55, 0, 255, 0.404);
+  transition: all .8s;
+}
 footer {
   width: 100%;
   min-height: 30px;
