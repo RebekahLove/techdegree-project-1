@@ -107,10 +107,13 @@ header .profile-image:hover {
  .card-image-1 {
   margin-top: 20px;
   width: 420px;
-  height: 300px;
-  border-radius: 0;
-  border: 0px solid rgba(55, 0, 255, 0.404);
+  height: 250px;
+  border-radius: 6px;
+  border: 3px solid rgba(55, 0, 255, 0.404);
   transition: all .8s;
+}
+.card-image-1:hover {
+  transform: scale(1.25) rotate(-5deg);
 }
 
 ul.skills {
@@ -131,21 +134,16 @@ ul.skills {
   background: #470170;
 }
 
-.card-image-1 {
-  margin-top: 20px;
-  width: 420px;
-  height: 250px;
-  border-radius: 0;
-  border: 0px solid rgba(55, 0, 255, 0.404);
-  transition: all .8s;
-}
 .card-image-2 {
   margin-top: 20px;
   width: 420px;
   height: 350px;
-  border-radius: 0;
-  border: 0px solid rgba(55, 0, 255, 0.404);
+  border-radius: 6px;
+  border: 3px solid rgba(55, 0, 255, 0.404);
   transition: all .8s;
+}
+.card-image-2:hover {
+  transform: scale(1.25) rotate(5deg);
 }
 footer {
   width: 100%;
