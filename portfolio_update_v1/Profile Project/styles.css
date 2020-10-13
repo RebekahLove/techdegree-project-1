@@ -159,7 +159,7 @@ footer .copyright {
 footer ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 footer ul li {
@@ -174,7 +174,7 @@ a.social {
   height: 30px;
   background-size: 30px 30px;
   opacity: .4;
-  transition: all .5s;
+  transition: all .5s; 
 }
 a.github {
   background-image: url(images/github.svg);
