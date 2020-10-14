@@ -115,6 +115,17 @@ header .profile-image:hover {
 .card-image-1:hover {
   transform: scale(1.25) rotate(-5deg);
 }
+.card-image-3 {
+  margin-top: 20px;
+  width: 420px;
+  height: 300px;
+  border-radius: 6px;
+  border: 3px solid rgba(55, 0, 255, 0.404);
+  transition: all .8s;
+ }
+ .card-image-3:hover {
+  transform: scale(1.25) rotate(5deg);
+ }
 
 ul.skills {
   padding: 0;
@@ -137,7 +148,7 @@ ul.skills {
 .card-image-2 {
   margin-top: 20px;
   width: 420px;
-  height: 350px;
+  height: 360px;
   border-radius: 6px;
   border: 3px solid rgba(55, 0, 255, 0.404);
   transition: all .8s;
@@ -145,6 +156,18 @@ ul.skills {
 .card-image-2:hover {
   transform: scale(1.25) rotate(5deg);
 }
+.card-image-4 {
+  margin-top: 20px;
+  width: 420px;
+  height: 490px;
+  border-radius: 6px;
+  border: 3px solid rgba(55, 0, 255, 0.404);
+  transition: all .8s;
+}
+.card-image-4:hover {
+  transform: scale(1.25) rotate(-5deg);
+}
+
 footer {
   width: 100%;
   min-height: 30px;
